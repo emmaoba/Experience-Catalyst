@@ -1,0 +1,85 @@
+{
+  "templates": [
+    {
+      "name": "nagase-color-homepage",
+      "urls": [
+        "https://www.nagase.co.jp/color/"
+      ],
+      "description": "Nagase Color Department homepage template with hero, product cards, service sections, and news list",
+      "blocks": [
+        {
+          "name": "section-1",
+          "section": true,
+          "selector": ".home__hero",
+          "blocks": [
+            {
+              "name": "hero-landing",
+              "selector": ".home__hero > div"
+            }
+          ]
+        },
+        {
+          "name": "section-2",
+          "section": true,
+          "selector": ".home__search",
+          "blocks": [
+            {
+              "name": "cards-product",
+              "selector": ".home__search > div > div"
+            },
+            {
+              "name": "cards-product",
+              "selector": ".home__search--preparation"
+            },
+            {
+              "name": "cards-product",
+              "selector": ".home__search--product"
+            },
+            {
+              "name": "columns-info",
+              "selector": ".home__search--type > div"
+            },
+            {
+              "name": "cards-product",
+              "selector": ".home__search--use"
+            }
+          ]
+        },
+        {
+          "name": "section-3",
+          "section": true,
+          "selector": ".home__service",
+          "blocks": [
+            {
+              "name": "cards-product",
+              "selector": ".home__service > ul"
+            }
+          ]
+        },
+        {
+          "name": "section-4",
+          "section": true,
+          "selector": ".home__news",
+          "blocks": []
+        },
+        {
+          "name": "section-5",
+          "section": true,
+          "selector": ".contact-box",
+          "blocks": []
+        },
+        {
+          "name": "section-6",
+          "section": true,
+          "selector": ".home__aside",
+          "blocks": [
+            {
+              "name": "cards-product",
+              "selector": ".home__bnr__list"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

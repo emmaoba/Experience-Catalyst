@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-product",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-12-11T07:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nagase.co.jp/color/",
+    "originPage": "Nagase color department product showcase",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "product-showcase",
+    "imagePattern": "grid"
+  },
+  "contentPattern": {
+    "structure": "grid of items with heading + company + description",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product listings",
+      "service showcases",
+      "feature grids",
+      "informational card layouts"
+    ],
+    "notSuitableFor": [
+      "image-heavy galleries",
+      "team member profiles with photos",
+      "blog post cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/color/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-11T07:20:00.000Z"
+  }
+}
