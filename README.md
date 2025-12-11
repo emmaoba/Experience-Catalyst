@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: [https://main--{repo}--{owner}.aem.page/](https://main--experience-catalyst--emmaoba.aem.live/)
+- Live: [https://main--{repo}--{owner}.aem.page/](https://main--experience-catalyst--emmaoba.aem.page/)
 
 ## Documentation
 
