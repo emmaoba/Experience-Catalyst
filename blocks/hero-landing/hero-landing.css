@@ -1,9 +1,11 @@
-.hero-landing {
-  background-image: var(--background-image, none);
+.hero-landing-container {
   background-position: right center;
   background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero-landing {
   padding-top: 93px;
-  margin-right: -220px;
   min-height: 400px;
 }
 
@@ -38,16 +40,18 @@
 }
 
 @media (width >= 900px) {
-  .hero-landing {
+  .hero-landing-container {
     background-size: contain;
   }
 }
 
 @media (width < 900px) {
   .hero-landing {
-    margin-right: 0;
     padding-top: 40px;
     background-position: center;
+  }
+
+  .hero-landing-container {
     background-size: cover;
   }
 }
