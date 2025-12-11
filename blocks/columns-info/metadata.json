@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-info",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2025-12-11T07:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nagase.co.jp/color/",
+    "originPage": "Nagase color department informational columns",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "informational",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "2 columns side-by-side with headings and descriptions",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "side-by-side informational content",
+      "comparison layouts",
+      "two-column text sections"
+    ],
+    "notSuitableFor": [
+      "image-heavy layouts",
+      "3+ column layouts",
+      "complex nested content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/color/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-11T07:20:00.000Z"
+  }
+}

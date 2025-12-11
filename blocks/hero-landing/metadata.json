@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-landing",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2025-12-11T07:20:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.nagase.co.jp/color/",
+    "originPage": "Nagase color department landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "minimal",
+    "purpose": "landing-hero",
+    "imagePattern": "decorative-image"
+  },
+  "contentPattern": {
+    "structure": "heading image + subtitle + CTA link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "landing pages with light backgrounds",
+      "pages with decorative hero images",
+      "text-focused introductions"
+    ],
+    "notSuitableFor": [
+      "pages requiring background images",
+      "hero sections with multiple CTAs",
+      "dark-themed pages"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/color/index"],
+    "reuseCount": 1,
+    "lastUsed": "2025-12-11T07:20:00.000Z"
+  }
+}
